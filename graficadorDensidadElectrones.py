@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import os
 import imageio.v2 as imageio
 
-# Carpeta donde están tus archivos
+# Carpeta donde están los archivos
 carpeta = "C:/Users/facui/Desktop/Proyectos/tallerIntegrador1/Taller-Integrador-1/Datos/227/ionogram"
 archivos = [f for f in os.listdir(carpeta) if f.endswith(".ngi")]
 
